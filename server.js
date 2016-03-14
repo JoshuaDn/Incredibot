@@ -4,7 +4,7 @@ var jsonHttp = require('json-http'); //required for Chuck Norris jokes
 var token = process.env.SLACK_API_TOKEN || '<add api key here>'; //our api key, probably should be hidden
 var version = 'v0.2'; //current version of incredibot
 
-var rtm = new RtmClient(token, {logLevel: 'debug'});
+var rtm = new RtmClient(token);
 rtm.start();
 
 //common slack IDs, we can look these up ad-hoc in the future
