@@ -17,7 +17,7 @@ rtm.login()
 
 //post message to general channel when incredibot initializes
 rtm.on(RTM_CLIENT_EVENTS.RTM_CONNECTION_OPENED, function () {
-  var messageText = 'incredibot: ' + version + ' is ONLINE';
+  var messageText = 'incredibot: ' + version + ' is ONLINE\nFor code, documentation, report and issue, or to request a new feature, please visit our github page: https://github.com/JoshuaDn/Incredibot/wiki';
   rtm.sendMessage(messageText, 'C0S18U030', function messageSent() {
   });
 });
