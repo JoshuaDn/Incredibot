@@ -1,0 +1,25 @@
+{
+  "name": "incredibot",
+  "version": "0.2.0",
+  "description": "Incredibot is a slack bot for the Incredibles Guild!",
+  "main": "server.js",
+  "dependencies": {
+    "slack-client": "^2.0.4",
+    "json-http": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoshuaDn/Incredibot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoshuaDn/Incredibot/issues"
+  },
+  "homepage": "https://github.com/JoshuaDn/Incredibot#readme"
+}
